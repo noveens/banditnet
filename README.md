@@ -20,3 +20,15 @@
 - `preprocess_cifar.py` makes bandit_dataset from the original cifar dataset
   - Edit the file to update hyper_parameters like `num_sample`
 - All the hyper-parameters for the banditnet implementation can be set in the file `code/hyper_params.py`
+
+## References
+Paper: [https://www.cs.cornell.edu/people/tj/publications/joachims_etal_18a.pdf](https://www.cs.cornell.edu/people/tj/publications/joachims_etal_18a.pdf)
+
+BibTeX: 
+```
+@InProceedings{Joachims/etal/18a,
+  author = 	 {T. Joachims and A. Swaminathan and M. de Rijke},
+  title = 	 {Deep Learning with Logged Bandit Feedback},
+  booktitle =    {International Conference on Learning Representations (ICLR)},
+  year = 	 2018}
+```
